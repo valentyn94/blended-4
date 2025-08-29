@@ -1,0 +1,70 @@
+a {
+  text-decoration: none; /* Прибирає підкреслення */
+  color: inherit; /* Зберігає колір тексту, якщо потрібно */
+}
+
+ul,
+ol {
+  list-style-type: none; /* Прибирає маркери (крапки, цифри) */
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+.header-style {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 80px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-style {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+
+  /* line-height: 28px; */
+  line-height: 93%;
+  color: #173a56;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+}
+
+.work {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+
+  /* line-height: 60px; */
+  line-height: 150%;
+  color: #22343d;
+}
+
+.signin-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  width: 105px;
+  height: 42px;
+}
+
+.signup-btn {
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  background: #02897a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
